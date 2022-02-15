@@ -4,6 +4,9 @@ metadata:
   name: {{ include "springboot.fullname" . }}
   labels:
     {{- include "springboot.labels" . | nindent 4 }}
+    {{- range $key, $val := .Values.master.podLabels }}
+    {{ $key }}: {{ $val | quote }}
+    {{- end}}
 spec:
   {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
