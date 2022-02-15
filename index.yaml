@@ -9,6 +9,6 @@ entries:
     name: springboot
     type: application
     urls:
-    - https://arvindrg.github.io/argocd/springboot-0.1.0.tgz
+    - https://lokits.github.io/argocd/springboot-0.1.0.tgz
     version: 0.1.0
 generated: "2021-08-25T11:35:32.88821+05:30"
