@@ -8,7 +8,7 @@ image:
   repository: lokits/spring-boot-mongo
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: 16
+  tag: 1
 
 imagePullSecrets: []
 nameOverride: ""
