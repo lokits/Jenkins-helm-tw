@@ -8,7 +8,7 @@ image:
   repository: lokits/thought-works-demo
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: 1
+  tag: 17
 
 imagePullSecrets: []
 nameOverride: ""
