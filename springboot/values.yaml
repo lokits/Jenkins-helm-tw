@@ -80,3 +80,8 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+
+master:
+  podLabels:
+    maintainer: lokendra
